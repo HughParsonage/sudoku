@@ -65,7 +65,11 @@ print_sudoku <- function(X, H = NULL, hi = NULL, hj = NULL, filename = "") {
   }
 }
 
-#' @rdname print_sudoku
+#' @name print.sudoku
+#' @title Print method for class sudoku
+#' @param x A puzzle.
+#' @param ... Passed to other methods
+#' @param H,hi,hj As in \code{\link{print_sudoku}}.
 #' @export
 print.sudoku <- function(x, ..., H = NULL, hi = NULL, hj = NULL) {
   print_sudoku(x, H, hi, hj)

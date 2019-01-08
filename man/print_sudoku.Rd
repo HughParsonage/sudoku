@@ -2,12 +2,9 @@
 % Please edit documentation in R/print-sudoku.R
 \name{print_sudoku}
 \alias{print_sudoku}
-\alias{print.sudoku}
 \title{Print a sudoku}
 \usage{
 print_sudoku(X, H = NULL, hi = NULL, hj = NULL, filename = "")
-
-\method{print}{sudoku}(x, ..., H = NULL, hi = NULL, hj = NULL)
 }
 \arguments{
 \item{X}{Numeric \eqn{9\times 9} matrix with integer values representing

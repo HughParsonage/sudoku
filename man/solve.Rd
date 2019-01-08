@@ -9,6 +9,9 @@ solve(M, depth = 3L)
 \arguments{
 \item{M}{An unsolved puzzle. Zeroes or \code{NA} values represent unsolved
 values.}
+
+\item{depth}{A nonnegative integer to limit the depth to which \code{\link{solve}}
+will be attempted. If negative, a stack overflow may occur.}
 }
 \value{
 The solved puzzle

@@ -1,4 +1,10 @@
 #' Is a particular value possible?
+#' @param X A puzzle.
+#' @param i,j Position of the candidate value.
+#' @param v The candidate value itself.
+#' @param depth A nonnegative integer to limit the depth to which \code{\link{solve}}
+#' will be attempted. If negative, a stack overflow may occur.
+#'
 #' @return \code{FALSE} if the value is impossible, \code{TRUE} if possible but not certain.
 #' @export is_possible
 

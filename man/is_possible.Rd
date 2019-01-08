@@ -6,6 +6,16 @@
 \usage{
 is_possible(X, i, j, v, depth = 1L)
 }
+\arguments{
+\item{X}{A puzzle.}
+
+\item{i, j}{Position of the candidate value.}
+
+\item{v}{The candidate value itself.}
+
+\item{depth}{A nonnegative integer to limit the depth to which \code{\link{solve}}
+will be attempted. If negative, a stack overflow may occur.}
+}
 \value{
 \code{FALSE} if the value is impossible, \code{TRUE} if possible but not certain.
 }

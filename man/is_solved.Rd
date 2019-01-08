@@ -8,6 +8,8 @@ is_solved(M, quiet = TRUE)
 }
 \arguments{
 \item{M}{A candidate puzzle.}
+
+\item{quiet}{Don't emit messages.}
 }
 \description{
 Is a puzzle (completely) solved?

@@ -1,5 +1,6 @@
 #' Is a puzzle (completely) solved?
 #' @param M A candidate puzzle.
+#' @param quiet Don't emit messages.
 #' @export
 
 is_solved <- function(M, quiet = TRUE) {
